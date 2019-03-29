@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public class TestMain {
-
+    //测试了一下git的使用流程是怎么样的
     private IProductDao dao = new ProductDaoImpl();
 
     @Test
