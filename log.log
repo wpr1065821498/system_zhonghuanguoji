@@ -1,0 +1,247 @@
+2018-12-29 15:48:51,397 DEBUG [cn.itsource.mybatis._01helloword.ProductDaoImpl] - debug..................
+2018-12-29 15:48:51,398 INFO [cn.itsource.mybatis._01helloword.ProductDaoImpl] - info....................
+2018-12-29 15:48:51,398 WARN [cn.itsource.mybatis._01helloword.ProductDaoImpl] - warn......................
+2018-12-29 15:48:51,399 ERROR [cn.itsource.mybatis._01helloword.ProductDaoImpl] - error.................
+2018-12-29 15:48:52,805 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@77ec78b9]
+2018-12-29 15:48:52,806 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ==>  Preparing: SELECT * FROM product WHERE id=? 
+2018-12-29 15:48:52,926 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ==> Parameters: 1(Long)
+2018-12-29 15:49:46,288 TRACE [cn.itsource.mybatis._01helloword.ProductDaoImpl] - trace。。。。。。。。。。
+2018-12-29 15:49:46,289 DEBUG [cn.itsource.mybatis._01helloword.ProductDaoImpl] - debug..................
+2018-12-29 15:49:46,289 INFO [cn.itsource.mybatis._01helloword.ProductDaoImpl] - info....................
+2018-12-29 15:49:46,289 WARN [cn.itsource.mybatis._01helloword.ProductDaoImpl] - warn......................
+2018-12-29 15:49:46,290 ERROR [cn.itsource.mybatis._01helloword.ProductDaoImpl] - error.................
+2018-12-29 15:49:47,684 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@77ec78b9]
+2018-12-29 15:49:47,684 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ==>  Preparing: SELECT * FROM product WHERE id=? 
+2018-12-29 15:49:47,761 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ==> Parameters: 1(Long)
+2018-12-29 15:49:47,799 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findOne] - <==    Columns: id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice
+2018-12-29 15:49:47,800 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findOne] - <==        Row: 1, 罗技M90, 3, 90.00, 罗技, 罗技, 0.50, 35.00
+2018-12-29 15:49:47,801 TRACE [cn.itsource.mybatis._01helloword.ProductDaoImpl] - 查询成功！！！
+2018-12-29 16:06:23,483 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@46daef40]
+2018-12-29 16:06:23,484 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==>  Preparing: SELECT * FROM product 
+2018-12-29 16:06:23,546 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==> Parameters: 
+2018-12-29 16:06:23,601 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==    Columns: id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice
+2018-12-29 16:06:23,602 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 1, 罗技M90, 3, 90.00, 罗技, 罗技, 0.50, 35.00
+2018-12-29 16:06:23,612 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 2, 罗技M100, 3, 49.00, 罗技, 罗技, 0.90, 33.00
+2018-12-29 16:06:23,613 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 3, 罗技M115, 3, 99.00, 罗技, 罗技, 0.60, 38.00
+2018-12-29 16:06:23,614 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 4, 罗技M125, 3, 80.00, 罗技, 罗技, 0.90, 39.00
+2018-12-29 16:06:23,614 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 5, 罗技木星轨迹球, 3, 182.00, 罗技, 罗技, 0.80, 80.00
+2018-12-29 16:06:23,614 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 6, 罗技火星轨迹球, 3, 349.00, 罗技, 罗技, 0.87, 290.00
+2018-12-29 16:06:23,653 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 7, 罗技G9X, 3, 680.00, 罗技, 罗技, 0.70, 470.00
+2018-12-29 16:06:23,657 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 8, 罗技M215, 2, 89.00, 罗技, 罗技, 0.79, 30.00
+2018-12-29 16:06:23,670 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 9, 罗技M305, 2, 119.00, 罗技, 罗技, 0.82, 48.00
+2018-12-29 16:06:23,670 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 10, 罗技M310, 2, 135.00, 罗技, 罗技, 0.92, 69.80
+2018-12-29 16:06:23,671 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 11, 罗技M505, 2, 148.00, 罗技, 罗技, 0.92, 72.00
+2018-12-29 16:06:23,671 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 12, 罗技M555, 2, 275.00, 罗技, 罗技, 0.88, 140.00
+2018-12-29 16:06:23,672 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 13, 罗技M905, 2, 458.00, 罗技, 罗技, 0.88, 270.00
+2018-12-29 16:06:23,672 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 14, 罗技MX1100, 2, 550.00, 罗技, 罗技, 0.76, 300.00
+2018-12-29 16:06:23,672 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 15, 罗技M950, 2, 678.00, 罗技, 罗技, 0.78, 320.00
+2018-12-29 16:06:23,673 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 16, 罗技MX Air, 2, 1299.00, 罗技, 罗技, 0.72, 400.00
+2018-12-29 16:06:23,677 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 17, 罗技G1, 4, 155.00, 罗技, 罗技, 0.80, 49.00
+2018-12-29 16:06:23,677 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 18, 罗技G3, 4, 229.00, 罗技, 罗技, 0.77, 96.00
+2018-12-29 16:06:23,678 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 19, 罗技G500, 4, 399.00, 罗技, 罗技, 0.88, 130.00
+2018-12-29 16:06:23,679 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 20, 罗技G700, 4, 699.00, 罗技, 罗技, 0.79, 278.00
+2018-12-29 16:06:23,679 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 23, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.99, 1000.00
+2018-12-29 16:06:23,680 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 24, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:06:23,680 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 25, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:06:23,681 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 26, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:07:45,282 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@46daef40]
+2018-12-29 16:07:45,283 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==>  Preparing: SELECT * FROM product 
+2018-12-29 16:07:45,382 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==> Parameters: 
+2018-12-29 16:07:45,411 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==    Columns: id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice
+2018-12-29 16:07:45,411 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 1, 罗技M90, 3, 90.00, 罗技, 罗技, 0.50, 35.00
+2018-12-29 16:07:45,414 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 2, 罗技M100, 3, 49.00, 罗技, 罗技, 0.90, 33.00
+2018-12-29 16:07:45,415 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 3, 罗技M115, 3, 99.00, 罗技, 罗技, 0.60, 38.00
+2018-12-29 16:07:45,417 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 4, 罗技M125, 3, 80.00, 罗技, 罗技, 0.90, 39.00
+2018-12-29 16:07:45,418 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 5, 罗技木星轨迹球, 3, 182.00, 罗技, 罗技, 0.80, 80.00
+2018-12-29 16:07:45,419 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 6, 罗技火星轨迹球, 3, 349.00, 罗技, 罗技, 0.87, 290.00
+2018-12-29 16:07:45,423 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 7, 罗技G9X, 3, 680.00, 罗技, 罗技, 0.70, 470.00
+2018-12-29 16:07:45,430 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 8, 罗技M215, 2, 89.00, 罗技, 罗技, 0.79, 30.00
+2018-12-29 16:07:45,431 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 9, 罗技M305, 2, 119.00, 罗技, 罗技, 0.82, 48.00
+2018-12-29 16:07:45,433 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 10, 罗技M310, 2, 135.00, 罗技, 罗技, 0.92, 69.80
+2018-12-29 16:07:45,436 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 11, 罗技M505, 2, 148.00, 罗技, 罗技, 0.92, 72.00
+2018-12-29 16:07:45,437 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 12, 罗技M555, 2, 275.00, 罗技, 罗技, 0.88, 140.00
+2018-12-29 16:07:45,438 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 13, 罗技M905, 2, 458.00, 罗技, 罗技, 0.88, 270.00
+2018-12-29 16:07:45,439 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 14, 罗技MX1100, 2, 550.00, 罗技, 罗技, 0.76, 300.00
+2018-12-29 16:07:45,440 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 15, 罗技M950, 2, 678.00, 罗技, 罗技, 0.78, 320.00
+2018-12-29 16:07:45,445 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 16, 罗技MX Air, 2, 1299.00, 罗技, 罗技, 0.72, 400.00
+2018-12-29 16:07:45,449 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 17, 罗技G1, 4, 155.00, 罗技, 罗技, 0.80, 49.00
+2018-12-29 16:07:45,450 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 18, 罗技G3, 4, 229.00, 罗技, 罗技, 0.77, 96.00
+2018-12-29 16:07:45,450 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 19, 罗技G500, 4, 399.00, 罗技, 罗技, 0.88, 130.00
+2018-12-29 16:07:45,450 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 20, 罗技G700, 4, 699.00, 罗技, 罗技, 0.79, 278.00
+2018-12-29 16:07:45,451 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 23, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.99, 1000.00
+2018-12-29 16:07:45,451 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 24, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:07:45,451 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 25, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:07:45,452 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 26, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:12:19,499 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1e7c7811]
+2018-12-29 16:12:19,500 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==>  Preparing: SELECT * FROM product 
+2018-12-29 16:12:19,553 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==> Parameters: 
+2018-12-29 16:12:19,585 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==    Columns: id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice
+2018-12-29 16:12:19,585 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 1, 罗技M90, 3, 90.00, 罗技, 罗技, 0.50, 35.00
+2018-12-29 16:12:19,586 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 2, 罗技M100, 3, 49.00, 罗技, 罗技, 0.90, 33.00
+2018-12-29 16:12:19,587 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 3, 罗技M115, 3, 99.00, 罗技, 罗技, 0.60, 38.00
+2018-12-29 16:12:19,588 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 4, 罗技M125, 3, 80.00, 罗技, 罗技, 0.90, 39.00
+2018-12-29 16:12:19,588 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 5, 罗技木星轨迹球, 3, 182.00, 罗技, 罗技, 0.80, 80.00
+2018-12-29 16:12:19,589 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 6, 罗技火星轨迹球, 3, 349.00, 罗技, 罗技, 0.87, 290.00
+2018-12-29 16:12:19,590 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 7, 罗技G9X, 3, 680.00, 罗技, 罗技, 0.70, 470.00
+2018-12-29 16:12:19,590 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 8, 罗技M215, 2, 89.00, 罗技, 罗技, 0.79, 30.00
+2018-12-29 16:12:19,591 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 9, 罗技M305, 2, 119.00, 罗技, 罗技, 0.82, 48.00
+2018-12-29 16:12:19,592 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 10, 罗技M310, 2, 135.00, 罗技, 罗技, 0.92, 69.80
+2018-12-29 16:12:19,593 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 11, 罗技M505, 2, 148.00, 罗技, 罗技, 0.92, 72.00
+2018-12-29 16:12:19,594 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 12, 罗技M555, 2, 275.00, 罗技, 罗技, 0.88, 140.00
+2018-12-29 16:12:19,594 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 13, 罗技M905, 2, 458.00, 罗技, 罗技, 0.88, 270.00
+2018-12-29 16:12:19,597 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 14, 罗技MX1100, 2, 550.00, 罗技, 罗技, 0.76, 300.00
+2018-12-29 16:12:19,598 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 15, 罗技M950, 2, 678.00, 罗技, 罗技, 0.78, 320.00
+2018-12-29 16:12:19,599 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 16, 罗技MX Air, 2, 1299.00, 罗技, 罗技, 0.72, 400.00
+2018-12-29 16:12:19,611 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 17, 罗技G1, 4, 155.00, 罗技, 罗技, 0.80, 49.00
+2018-12-29 16:12:19,613 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 18, 罗技G3, 4, 229.00, 罗技, 罗技, 0.77, 96.00
+2018-12-29 16:12:19,613 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 19, 罗技G500, 4, 399.00, 罗技, 罗技, 0.88, 130.00
+2018-12-29 16:12:19,613 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 20, 罗技G700, 4, 699.00, 罗技, 罗技, 0.79, 278.00
+2018-12-29 16:12:19,614 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 23, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.99, 1000.00
+2018-12-29 16:12:19,614 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 24, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:12:19,614 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 25, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:12:19,615 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 26, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:12:58,401 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1e7c7811]
+2018-12-29 16:12:58,401 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==>  Preparing: SELECT * FROM product 
+2018-12-29 16:12:58,438 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==> Parameters: 
+2018-12-29 16:12:58,490 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==    Columns: id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice
+2018-12-29 16:12:58,490 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 1, 罗技M90, 3, 90.00, 罗技, 罗技, 0.50, 35.00
+2018-12-29 16:12:58,491 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 2, 罗技M100, 3, 49.00, 罗技, 罗技, 0.90, 33.00
+2018-12-29 16:12:58,513 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 3, 罗技M115, 3, 99.00, 罗技, 罗技, 0.60, 38.00
+2018-12-29 16:12:58,515 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 4, 罗技M125, 3, 80.00, 罗技, 罗技, 0.90, 39.00
+2018-12-29 16:12:58,518 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 5, 罗技木星轨迹球, 3, 182.00, 罗技, 罗技, 0.80, 80.00
+2018-12-29 16:12:58,518 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 6, 罗技火星轨迹球, 3, 349.00, 罗技, 罗技, 0.87, 290.00
+2018-12-29 16:12:58,520 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 7, 罗技G9X, 3, 680.00, 罗技, 罗技, 0.70, 470.00
+2018-12-29 16:12:58,520 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 8, 罗技M215, 2, 89.00, 罗技, 罗技, 0.79, 30.00
+2018-12-29 16:12:58,523 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 9, 罗技M305, 2, 119.00, 罗技, 罗技, 0.82, 48.00
+2018-12-29 16:12:58,523 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 10, 罗技M310, 2, 135.00, 罗技, 罗技, 0.92, 69.80
+2018-12-29 16:12:58,523 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 11, 罗技M505, 2, 148.00, 罗技, 罗技, 0.92, 72.00
+2018-12-29 16:12:58,524 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 12, 罗技M555, 2, 275.00, 罗技, 罗技, 0.88, 140.00
+2018-12-29 16:12:58,524 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 13, 罗技M905, 2, 458.00, 罗技, 罗技, 0.88, 270.00
+2018-12-29 16:12:58,524 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 14, 罗技MX1100, 2, 550.00, 罗技, 罗技, 0.76, 300.00
+2018-12-29 16:12:58,527 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 15, 罗技M950, 2, 678.00, 罗技, 罗技, 0.78, 320.00
+2018-12-29 16:12:58,533 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 16, 罗技MX Air, 2, 1299.00, 罗技, 罗技, 0.72, 400.00
+2018-12-29 16:12:58,536 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 17, 罗技G1, 4, 155.00, 罗技, 罗技, 0.80, 49.00
+2018-12-29 16:12:58,536 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 18, 罗技G3, 4, 229.00, 罗技, 罗技, 0.77, 96.00
+2018-12-29 16:12:58,537 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 19, 罗技G500, 4, 399.00, 罗技, 罗技, 0.88, 130.00
+2018-12-29 16:12:58,537 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 20, 罗技G700, 4, 699.00, 罗技, 罗技, 0.79, 278.00
+2018-12-29 16:12:58,537 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 23, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.99, 1000.00
+2018-12-29 16:12:58,537 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 24, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:12:58,538 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 25, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:12:58,538 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 26, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:13:45,662 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1e7c7811]
+2018-12-29 16:13:45,662 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==>  Preparing: SELECT * FROM product 
+2018-12-29 16:13:45,737 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==> Parameters: 
+2018-12-29 16:13:45,755 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==    Columns: id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice
+2018-12-29 16:13:45,755 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 1, 罗技M90, 3, 90.00, 罗技, 罗技, 0.50, 35.00
+2018-12-29 16:13:45,756 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 2, 罗技M100, 3, 49.00, 罗技, 罗技, 0.90, 33.00
+2018-12-29 16:13:45,757 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 3, 罗技M115, 3, 99.00, 罗技, 罗技, 0.60, 38.00
+2018-12-29 16:13:45,758 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 4, 罗技M125, 3, 80.00, 罗技, 罗技, 0.90, 39.00
+2018-12-29 16:13:45,758 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 5, 罗技木星轨迹球, 3, 182.00, 罗技, 罗技, 0.80, 80.00
+2018-12-29 16:13:45,758 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 6, 罗技火星轨迹球, 3, 349.00, 罗技, 罗技, 0.87, 290.00
+2018-12-29 16:13:45,760 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 7, 罗技G9X, 3, 680.00, 罗技, 罗技, 0.70, 470.00
+2018-12-29 16:13:45,760 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 8, 罗技M215, 2, 89.00, 罗技, 罗技, 0.79, 30.00
+2018-12-29 16:13:45,761 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 9, 罗技M305, 2, 119.00, 罗技, 罗技, 0.82, 48.00
+2018-12-29 16:13:45,761 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 10, 罗技M310, 2, 135.00, 罗技, 罗技, 0.92, 69.80
+2018-12-29 16:13:45,761 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 11, 罗技M505, 2, 148.00, 罗技, 罗技, 0.92, 72.00
+2018-12-29 16:13:45,761 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 12, 罗技M555, 2, 275.00, 罗技, 罗技, 0.88, 140.00
+2018-12-29 16:13:45,762 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 13, 罗技M905, 2, 458.00, 罗技, 罗技, 0.88, 270.00
+2018-12-29 16:13:45,762 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 14, 罗技MX1100, 2, 550.00, 罗技, 罗技, 0.76, 300.00
+2018-12-29 16:13:45,762 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 15, 罗技M950, 2, 678.00, 罗技, 罗技, 0.78, 320.00
+2018-12-29 16:13:45,765 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 16, 罗技MX Air, 2, 1299.00, 罗技, 罗技, 0.72, 400.00
+2018-12-29 16:13:45,769 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 17, 罗技G1, 4, 155.00, 罗技, 罗技, 0.80, 49.00
+2018-12-29 16:13:45,771 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 18, 罗技G3, 4, 229.00, 罗技, 罗技, 0.77, 96.00
+2018-12-29 16:13:45,771 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 19, 罗技G500, 4, 399.00, 罗技, 罗技, 0.88, 130.00
+2018-12-29 16:13:45,772 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 20, 罗技G700, 4, 699.00, 罗技, 罗技, 0.79, 278.00
+2018-12-29 16:13:45,773 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 23, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.99, 1000.00
+2018-12-29 16:13:45,775 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 24, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:13:45,776 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 25, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:13:45,777 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 26, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:15:26,785 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1e7c7811]
+2018-12-29 16:15:26,787 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==>  Preparing: SELECT * FROM product 
+2018-12-29 16:15:26,836 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==> Parameters: 
+2018-12-29 16:15:26,863 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==    Columns: id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice
+2018-12-29 16:15:26,863 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 1, 罗技M90, 3, 90.00, 罗技, 罗技, 0.50, 35.00
+2018-12-29 16:15:26,864 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 2, 罗技M100, 3, 49.00, 罗技, 罗技, 0.90, 33.00
+2018-12-29 16:15:26,870 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 3, 罗技M115, 3, 99.00, 罗技, 罗技, 0.60, 38.00
+2018-12-29 16:15:26,871 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 4, 罗技M125, 3, 80.00, 罗技, 罗技, 0.90, 39.00
+2018-12-29 16:15:26,871 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 5, 罗技木星轨迹球, 3, 182.00, 罗技, 罗技, 0.80, 80.00
+2018-12-29 16:15:26,872 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 6, 罗技火星轨迹球, 3, 349.00, 罗技, 罗技, 0.87, 290.00
+2018-12-29 16:15:26,873 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 7, 罗技G9X, 3, 680.00, 罗技, 罗技, 0.70, 470.00
+2018-12-29 16:15:26,874 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 8, 罗技M215, 2, 89.00, 罗技, 罗技, 0.79, 30.00
+2018-12-29 16:15:26,874 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 9, 罗技M305, 2, 119.00, 罗技, 罗技, 0.82, 48.00
+2018-12-29 16:15:26,875 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 10, 罗技M310, 2, 135.00, 罗技, 罗技, 0.92, 69.80
+2018-12-29 16:15:26,875 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 11, 罗技M505, 2, 148.00, 罗技, 罗技, 0.92, 72.00
+2018-12-29 16:15:26,875 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 12, 罗技M555, 2, 275.00, 罗技, 罗技, 0.88, 140.00
+2018-12-29 16:15:26,876 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 13, 罗技M905, 2, 458.00, 罗技, 罗技, 0.88, 270.00
+2018-12-29 16:15:26,876 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 14, 罗技MX1100, 2, 550.00, 罗技, 罗技, 0.76, 300.00
+2018-12-29 16:15:26,876 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 15, 罗技M950, 2, 678.00, 罗技, 罗技, 0.78, 320.00
+2018-12-29 16:15:26,877 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 16, 罗技MX Air, 2, 1299.00, 罗技, 罗技, 0.72, 400.00
+2018-12-29 16:15:26,902 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 17, 罗技G1, 4, 155.00, 罗技, 罗技, 0.80, 49.00
+2018-12-29 16:15:26,903 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 18, 罗技G3, 4, 229.00, 罗技, 罗技, 0.77, 96.00
+2018-12-29 16:15:26,903 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 19, 罗技G500, 4, 399.00, 罗技, 罗技, 0.88, 130.00
+2018-12-29 16:15:26,904 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 20, 罗技G700, 4, 699.00, 罗技, 罗技, 0.79, 278.00
+2018-12-29 16:15:26,904 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 23, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.99, 1000.00
+2018-12-29 16:15:26,904 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 24, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:15:26,905 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 25, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:15:26,905 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 26, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:35:09,546 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1e7c7811]
+2018-12-29 16:35:09,549 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==>  Preparing: SELECT * FROM product 
+2018-12-29 16:35:09,586 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findAll] - ==> Parameters: 
+2018-12-29 16:35:09,628 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==    Columns: id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice
+2018-12-29 16:35:09,628 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 1, 罗技M90, 3, 90.00, 罗技, 罗技, 0.50, 35.00
+2018-12-29 16:35:09,629 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 2, 罗技M100, 3, 49.00, 罗技, 罗技, 0.90, 33.00
+2018-12-29 16:35:09,636 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 3, 罗技M115, 3, 99.00, 罗技, 罗技, 0.60, 38.00
+2018-12-29 16:35:09,637 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 4, 罗技M125, 3, 80.00, 罗技, 罗技, 0.90, 39.00
+2018-12-29 16:35:09,638 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 5, 罗技木星轨迹球, 3, 182.00, 罗技, 罗技, 0.80, 80.00
+2018-12-29 16:35:09,640 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 6, 罗技火星轨迹球, 3, 349.00, 罗技, 罗技, 0.87, 290.00
+2018-12-29 16:35:09,644 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 7, 罗技G9X, 3, 680.00, 罗技, 罗技, 0.70, 470.00
+2018-12-29 16:35:09,644 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 8, 罗技M215, 2, 89.00, 罗技, 罗技, 0.79, 30.00
+2018-12-29 16:35:09,646 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 9, 罗技M305, 2, 119.00, 罗技, 罗技, 0.82, 48.00
+2018-12-29 16:35:09,647 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 10, 罗技M310, 2, 135.00, 罗技, 罗技, 0.92, 69.80
+2018-12-29 16:35:09,648 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 11, 罗技M505, 2, 148.00, 罗技, 罗技, 0.92, 72.00
+2018-12-29 16:35:09,648 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 12, 罗技M555, 2, 275.00, 罗技, 罗技, 0.88, 140.00
+2018-12-29 16:35:09,649 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 13, 罗技M905, 2, 458.00, 罗技, 罗技, 0.88, 270.00
+2018-12-29 16:35:09,649 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 14, 罗技MX1100, 2, 550.00, 罗技, 罗技, 0.76, 300.00
+2018-12-29 16:35:09,649 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 15, 罗技M950, 2, 678.00, 罗技, 罗技, 0.78, 320.00
+2018-12-29 16:35:09,650 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 16, 罗技MX Air, 2, 1299.00, 罗技, 罗技, 0.72, 400.00
+2018-12-29 16:35:09,656 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 17, 罗技G1, 4, 155.00, 罗技, 罗技, 0.80, 49.00
+2018-12-29 16:35:09,656 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 18, 罗技G3, 4, 229.00, 罗技, 罗技, 0.77, 96.00
+2018-12-29 16:35:09,657 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 19, 罗技G500, 4, 399.00, 罗技, 罗技, 0.88, 130.00
+2018-12-29 16:35:09,657 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 20, 罗技G700, 4, 699.00, 罗技, 罗技, 0.79, 278.00
+2018-12-29 16:35:09,658 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 23, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.99, 1000.00
+2018-12-29 16:35:09,658 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 24, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:35:09,658 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 25, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:35:09,659 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findAll] - <==        Row: 26, 测试产品名, 1, 2000.00, 重庆供应商, 凤凰牌, 0.20, 1000.00
+2018-12-29 16:35:20,436 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.save] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1a3869f4]
+2018-12-29 16:35:20,439 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.save] - ==>  Preparing: INSERT INTO product(productName,dir_id,salePrice,supplier,brand,cutoff,costPrice) VALUES(?,?,?,?,?,?,?) 
+2018-12-29 16:35:20,483 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.save] - ==> Parameters: null, null, null, null, null, null, null
+2018-12-29 16:36:41,378 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.save] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1a3869f4]
+2018-12-29 16:36:41,386 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.save] - ==>  Preparing: INSERT INTO product(productName,dir_id,salePrice,supplier,brand,cutoff,costPrice) VALUES(?,?,?,?,?,?,?) 
+2018-12-29 16:37:09,681 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.save] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1a3869f4]
+2018-12-29 16:37:09,681 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.save] - ==>  Preparing: INSERT INTO product(productName,dir_id,salePrice,supplier,brand,cutoff,costPrice) VALUES(?,?,?,?,?,?,?) 
+2018-12-29 16:37:09,737 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.save] - ==> Parameters: 测试产品名(String), null, 2000(BigDecimal), 重庆供应商(String), 凤凰牌(String), 0.2(BigDecimal), 1000(BigDecimal)
+2018-12-29 16:37:33,405 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.save] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@1a3869f4]
+2018-12-29 16:37:33,406 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.save] - ==>  Preparing: INSERT INTO product(productName,dir_id,salePrice,supplier,brand,cutoff,costPrice) VALUES(?,?,?,?,?,?,?) 
+2018-12-29 16:37:33,478 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.save] - ==> Parameters: 测试产品名(String), null, 2000(BigDecimal), 重庆供应商(String), 凤凰牌(String), 0.2(BigDecimal), 1000(BigDecimal)
+2018-12-29 19:48:40,039 TRACE [cn.itsource.mybatis._01helloword.ProductDaoImpl] - trace。。。。。。。。。。
+2018-12-29 19:48:40,040 DEBUG [cn.itsource.mybatis._01helloword.ProductDaoImpl] - debug..................
+2018-12-29 19:48:40,040 INFO [cn.itsource.mybatis._01helloword.ProductDaoImpl] - info....................
+2018-12-29 19:48:40,040 WARN [cn.itsource.mybatis._01helloword.ProductDaoImpl] - warn......................
+2018-12-29 19:48:40,040 ERROR [cn.itsource.mybatis._01helloword.ProductDaoImpl] - error.................
+2018-12-29 19:48:41,400 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@ed9d034]
+2018-12-29 19:48:41,401 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ==>  Preparing: SELECT * FROM product WHERE id=? 
+2018-12-29 19:48:41,437 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ==> Parameters: 1(Long)
+2018-12-29 19:48:41,457 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findOne] - <==    Columns: id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice
+2018-12-29 19:48:41,457 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findOne] - <==        Row: 1, 罗技M90, 3, 90.00, 罗技, 罗技, 0.50, 35.00
+2018-12-29 19:48:41,458 TRACE [cn.itsource.mybatis._01helloword.ProductDaoImpl] - 查询成功！！！
+2018-12-29 19:49:11,434 TRACE [cn.itsource.mybatis._01helloword.ProductDaoImpl] - trace。。。。。。。。。。
+2018-12-29 19:49:11,434 DEBUG [cn.itsource.mybatis._01helloword.ProductDaoImpl] - debug..................
+2018-12-29 19:49:11,434 INFO [cn.itsource.mybatis._01helloword.ProductDaoImpl] - info....................
+2018-12-29 19:49:11,434 WARN [cn.itsource.mybatis._01helloword.ProductDaoImpl] - warn......................
+2018-12-29 19:49:11,434 ERROR [cn.itsource.mybatis._01helloword.ProductDaoImpl] - error.................
+2018-12-29 19:49:12,301 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ooo Using Connection [com.mysql.jdbc.JDBC4Connection@ed9d034]
+2018-12-29 19:49:12,302 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ==>  Preparing: SELECT * FROM product WHERE id=? 
+2018-12-29 19:49:12,362 DEBUG [cn.itsource.mybatis._01helloword.IProductDao.findOne] - ==> Parameters: 1(Long)
+2018-12-29 19:49:12,384 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findOne] - <==    Columns: id, productName, dir_id, salePrice, supplier, brand, cutoff, costPrice
+2018-12-29 19:49:12,384 TRACE [cn.itsource.mybatis._01helloword.IProductDao.findOne] - <==        Row: 1, 罗技M90, 3, 90.00, 罗技, 罗技, 0.50, 35.00
+2018-12-29 19:49:12,385 TRACE [cn.itsource.mybatis._01helloword.ProductDaoImpl] - 查询成功！！！

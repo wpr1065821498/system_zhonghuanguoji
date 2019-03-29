@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--mybatis的根节点-->
+<configuration>
+    <!--该标签是专门用来定义类型的别名的-->
+    <typeAliases>
+       <!-- 设置别名方式1
+        <typeAlias type="cn.itsource.mybatis._01helloword.Product" alias="Product"/>-->
+        <!--定义一个公共的基础包-->
+        <package name="cn.itsource.mybatis._01helloword"/>
+    </typeAliases>
+    <!--环境   主要是指的操作数据库的环境-->
+    <environments default="MYSQL">
+        <!--给环境取一个名字   简单理解  1个环境就代表一个数据库-->
+        <environment id="MYSQL">
+            <!--
+                事务：
+                type=JDBC  它是支持事务提交和回滚的   使用的事务类型就是原生jdbc的
+                type= MANAGED   它是不支持事务的提交和回滚的
+            、-->
+            <transactionManager type="JDBC"/>
+            <!--利用了连接池-->
+            <dataSource type="POOLED">
+                <!--连接数据库的四大金刚-->
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql:///mybatis?createDatabaseIfNotExist=true"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="cn/itsource/mybatis/_01helloword/ProductMapper.xml"/>
+    </mappers>
+
+</configuration>

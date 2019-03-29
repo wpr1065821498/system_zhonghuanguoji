@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+编写sql的根目录
+sql映射文件  取一个名字
+-->
+<mapper namespace="cn.itsource.mybatis._01helloword.IProductDao">
+
+    <!--专门定义自定义映射规则的-->
+    <resultMap id="resultProduct" type="Product">
+        <!-- id标签是专门用来映射主键的-->
+        <id column="id" property="sid"/>
+       <!-- 映射普通属性我们都使用result-->
+        <!--property:对应的是domain中的属性
+        column：对应的是数据库中的某一列-->
+        <result property="dirId" column="dir_id"/>
+    </resultMap>
+   <!--
+    id：操作sql语句的别名
+    resultType:把查询出来的结果集封装到指定的类型中
+
+    把查询出来的数据，映射到我们指定的类型中有值（前提：数据库中的列名与我们domain中的列名一致了）
+    如果你domain中的属性，与数据库中的列名不一致，那它不能映射成功，所以值会为空，所以当默认的映射规则不能满足我们
+    的条件，那我们就使用自定义的映射规则
+    -->
+    <select id="findAll" resultMap="resultProduct">
+        SELECT * FROM product
+    </select>
+
+    <!--parameterType:传递的参数类型-->
+    <select id="findOne" parameterType="long" resultType="Product">
+        SELECT * FROM product WHERE id=#{id}
+    </select>
+    <!--
+    添加
+        useGeneratedKeys：是否需要主键
+        keyColumn: 把数据库中的id这一列对应的值放到  keyProperty 当前Product中的id属性中去
+    -->
+    <insert id="save" parameterType="Product"
+            useGeneratedKeys="true" keyColumn="id" keyProperty="sid">
+        INSERT INTO product(productName,dir_id,salePrice,supplier,brand,cutoff,costPrice)
+        VALUES(#{productName},#{dirId},#{salePrice},#{supplier},#{brand},#{cutoff},#{costPrice})
+    </insert>
+
+    <!--修改-->
+    <update id="update" parameterType="Product">
+          UPDATE product SET productName=#{productName},dir_id=#{dir_id},
+          salePrice=#{salePrice},supplier=#{supplier},brand=#{brand},cutoff=#{cutoff},costPrice=#{costPrice}
+          WHERE id=#{id}
+    </update>
+
+    <delete id="delete" parameterType="long">
+        DELETE  FROM product WHERE id=#{id}
+    </delete>
+
+</mapper>
